@@ -1,0 +1,218 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: black;
+}
+
+
+p{
+	text-align:center;
+	color: white;
+	font-family: 'Avengeance Heroic Avenger Normal';
+}
+
+span{
+	color: white;
+	font-family: 'Avengeance Heroic Avenger Normal';
+}
+
+.content:before {
+  content: "";
+  position: fixed;
+  top: -5%;
+  left: -5%;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  
+  display: block;
+  background-image: url(imagens/fundo.jpg);
+  background-size:cover;
+  width: 110%;
+  height: 110%;
+  
+  -webkit-filter: blur(2.7px);
+  -moz-filter: blur(2.7px);
+  -o-filter: blur(2.7px);
+  -ms-filter: blur(2.7px);
+  filter: blur(2.7px);
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position: relative;
+  background-color: #333;
+  font-family: 'Avengeance Heroic Avenger Normal';
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  display: block;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: red;
+  color: white;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+
+
+.content {
+  overflow: auto;
+  position: relative;
+}
+
+#logo{
+	width: 12%;
+}
+
+#espaco{
+	padding: 3%;
+}
+
+#titulo{
+	color: #8E0F06;
+	font-family: 'Avengeance Heroic Avenger Normal';
+	text-align:center;
+}
+
+#subtitulo{
+	color: white;
+	font-family: 'Avengeance Heroic Avenger Normal';
+	text-align:center;
+}
+
+#imagem{
+	padding: 2.8%;
+	width: 230px;
+	height: 350px;
+}
+
+#joias{
+	width: 50px;
+}
+
+#header{
+	background-color: #333;
+}
+
+#elenco {
+	font-family: 'Avengeance Heroic Avenger Normal';
+	border-collapse: collapse;
+	width: 50%;
+	background-color:white;
+}
+
+#elenco td, #elenco th {
+  border: 1px solid #a6a6a6;
+  padding: 8px;
+}
+
+#elenco tr:nth-child(even){background-color: #f2f2f2;}
+
+#elenco tr:hover {background-color: #ddd;}
+
+#elenco th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #8E0F06;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+.iframe-container{
+margin: 0 auto;
+max-width:100%;
+width:500px;
+height:300px;
+}
+
+@media only screen and (max-width: 992px) {
+	.iframe-container{
+		width: 80%;
+		height:400px;
+	}
+}
+@media only screen and (max-width: 600px) {
+   .iframe-container{
+		width: 100%;
+		height:500px;
+	}
+}
+
+iframe{
+	width:100%;
+	height:100%;
+	border:1px solid #000000
+}
+
+a{
+	text-decoration:none;
+}
+
+#direcao{
+	font-family: 'Avengeance Heroic Avenger Normal';
+	color: white;
+	text-align: center;
+}
+
+@font-face {
+	font-family: 'Avengeance Heroic Avenger Normal';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avengeance Heroic Avenger Normal'), url('AVENGEANCE HEROIC AVENGER.woff') format('woff');
+}
