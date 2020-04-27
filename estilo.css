@@ -44,6 +44,7 @@ span{
 /* Add a black background color to the top navigation */
 .topnav {
   position: relative;
+  width:100.5%;
   background-color: #333;
   font-family: 'Avengeance Heroic Avenger Normal';
   overflow: hidden;
@@ -143,6 +144,7 @@ span{
 
 #header{
 	background-color: #333;
+	width:100.5%;
 }
 
 #elenco {
