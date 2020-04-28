@@ -136,6 +136,14 @@ span{
 	padding: 2.8%;
 	width: 230px;
 	height: 350px;
+	transition: all .3s ease-in-out;
+	box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;;
+}
+
+#imagem:hover{
+	box-shadow: rgba(54, 54, 54, 1) 0px 15px 30px;
+  	transform: translate3d(0px, -1px, 0px);
+
 }
 
 #joias{
